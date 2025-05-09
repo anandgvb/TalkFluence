@@ -151,14 +151,16 @@ export default function InterviewPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left side - Image */}
-          <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-purple-500/20 to-pink-500/20 backdrop-blur-sm" />
+          <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl px-12 py-6 bg-gradient-to-br from-blue-900/30 via-purple-900/30 to-pink-900/30 border border-blue-500/20 hover:border-purple-500/30 transition-all duration-300 hover:shadow-[0_0_30px_rgba(88,28,135,0.3)]">
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-pink-500/10" />
+            <div className="absolute inset-0 bg-gradient-to-t from-gray-900/30 via-transparent to-gray-900/30" />
             <Image
               src="/interview-banner.jpg"
               alt="Interview Banner"
               fill
-              className="object-cover"
+              className="object-contain transition-transform duration-300 hover:scale-[1.02] px-4"
               priority
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
 
