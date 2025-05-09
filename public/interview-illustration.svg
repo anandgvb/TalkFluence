@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="800" height="600" fill="url(#bg-gradient)" />
+  
+  <!-- Abstract shapes -->
+  <circle cx="400" cy="300" r="200" fill="url(#shape-gradient)" opacity="0.1" />
+  <circle cx="400" cy="300" r="150" fill="url(#shape-gradient)" opacity="0.15" />
+  <circle cx="400" cy="300" r="100" fill="url(#shape-gradient)" opacity="0.2" />
+  
+  <!-- Microphone icon -->
+  <path d="M400 200C400 177.909 417.909 160 440 160C462.091 160 480 177.909 480 200V300C480 322.091 462.091 340 440 340C417.909 340 400 322.091 400 300V200Z" fill="white" opacity="0.8"/>
+  <path d="M440 340C462.091 340 480 322.091 480 300V200C480 177.909 462.091 160 440 160" stroke="white" stroke-width="4" opacity="0.8"/>
+  <path d="M400 340V380" stroke="white" stroke-width="4" opacity="0.8"/>
+  <path d="M440 340V380" stroke="white" stroke-width="4" opacity="0.8"/>
+  <path d="M400 380H440" stroke="white" stroke-width="4" opacity="0.8"/>
+  
+  <!-- Sound waves -->
+  <path d="M300 300C300 300 320 280 340 300C360 320 380 300 380 300" stroke="white" stroke-width="2" opacity="0.6"/>
+  <path d="M420 300C420 300 440 260 460 300C480 340 500 300 500 300" stroke="white" stroke-width="2" opacity="0.6"/>
+  <path d="M300 300C300 300 320 240 340 300C360 360 380 300 380 300" stroke="white" stroke-width="2" opacity="0.4"/>
+  <path d="M420 300C420 300 440 220 460 300C480 380 500 300 500 300" stroke="white" stroke-width="2" opacity="0.4"/>
+  
+  <!-- AI brain icon -->
+  <path d="M600 300C600 344.183 564.183 380 520 380C475.817 380 440 344.183 440 300C440 255.817 475.817 220 520 220C564.183 220 600 255.817 600 300Z" fill="white" opacity="0.8"/>
+  <path d="M520 240C533.255 240 544 250.745 544 264C544 277.255 533.255 288 520 288C506.745 288 496 277.255 496 264C496 250.745 506.745 240 520 240Z" fill="url(#shape-gradient)"/>
+  <path d="M520 312C533.255 312 544 322.745 544 336C544 349.255 533.255 360 520 360C506.745 360 496 349.255 496 336C496 322.745 506.745 312 520 312Z" fill="url(#shape-gradient)"/>
+  <path d="M496 300C496 286.745 506.745 276 520 276C533.255 276 544 286.745 544 300C544 313.255 533.255 324 520 324C506.745 324 496 313.255 496 300Z" fill="url(#shape-gradient)"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1F2937"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="shape-gradient" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+</svg> 
